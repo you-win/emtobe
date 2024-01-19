@@ -1,0 +1,10 @@
+[configuration]
+entry_symbol = "gdext_rust_init"
+compatibility_minimum = 4.2
+
+[libraries]
+windows.debug.x86_64 = "res://emtobe/target/debug/emtobe.dll"
+windows.release.x86_64 = "res://emtobe/target/release/emtobe.dll"
+
+linux.debug.x86_64 = "res://emtobe/target/debug/libemtobe.so"
+linux.release.x86_64 = "res://emtobe/target/release/libemtobe.so"
